@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Konus">
+        <EditText
+            android:id="@+id/etPlaka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnEkle"
+            android:layout_alignTop="@+id/text_view"
+            android:inputType="textPersonName"
+            android:text="Speech to Text"
+            android:layout_alignLeft="@+id/btnEkle" />
+
+        <Button
+            android:id="@+id/btnCustomKonus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Konuş" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
